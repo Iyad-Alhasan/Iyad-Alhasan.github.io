@@ -3,37 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Iyad Alhasan - Computer & Systems Engineering Master's Student</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Your Profession or Tagline</p>
+        <div class="container">
+            <h1>Iyad Alhasan</h1>
+            <p>Master's Student in Computer & Systems Engineering</p>
+        </div>
     </header>
     <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Write a brief introduction about yourself here.</p>
-        </section>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <p>Showcase your work or projects here.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Provide your contact information or a contact form here.</p>
-        </section>
+        <div class="container">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>I am a Master's student Majoring in Computer & Systems Engineering at University of Houston. I work as a research assistant and my current research focuses on accelerating the fully homomorphic encryption using FPGAs for specific applications. I also work part time as an ultrasound circuit designer at Houston Methodist. I previously worked for 2 year as an ASIC Design Verification Engineer, in which I worked for 1 year as a Technical Team Lead. <a href="https://github.com/Iyad-Alhasan/Iyad-Alhasan.github.io/blob/main/IA_Resume.pdf" target="_blank">My resume</a></p>
+            </section>
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <div class="portfolio-items">
+                    <div class="portfolio-item">
+                        <h3>FPGA Aceeleration Ramp up</h3>
+                        <p>Created an FPGA Tutorial that aims to help beginners interested in hardware acceleration using Xilinx Boards. This work consists of a document that guids the reader through the resources explaining most critical concepts in a cohesive way. It also consists of a series of videos that show the design of a simple hardware accelerator using the PYNQ-Z2 Board, highlighting the errors that a beginner might encounter. <a href="https://github.com/Iyad-Alhasan/FPGA_Hardware_Aceleration_Guide" target="_blank">Link</a></p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Email: inalhasan@uh.edu</li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/iyad-alhasan-350890207/" target="_blank">linkedin.com/in/Iyad-Alhasan</a></li>
+                </ul>
+            </section>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
